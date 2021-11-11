@@ -1,0 +1,28 @@
+
+.accordion
+{
+    list-style-type: none;
+    padding: 0px;
+}
+.accordion li:last-child a
+{
+    border-bottom: 1px solid #000;
+}
+.accordion li:last-child a.accordion-control.active
+{
+    border-bottom: 0px;
+}
+.accordion li a
+{
+    display: block;
+    background-color:  #bfff00;
+    color: #000;
+    padding: 1%;
+}
+
+.accordion-panel 
+{
+    display: none;
+    padding: 16px;    
+    background-color: #F67280;
+}
